@@ -10,7 +10,7 @@ class ExerciseSpec extends AnyFlatSpec with should.Matchers {
     Exercise.sumPrevElemIsEqual(list, 3) shouldBe false
   }
 
-  ignore should "FIXME" in {
+  it should "return false if n is biger then seq.length" in {
     val actual = Seq(1, 2, 3, 5)
     val expected = false
     Exercise.sumPrevElemIsEqual(actual, 6) shouldBe expected
