@@ -1,7 +1,7 @@
 import scala.collection.mutable.ListBuffer
 
 class Exercise {
-  def counterPrevElem(ls :List[Int],n: Int)={
+  def sumPrevElemIsEqual(ls :List[Int], n: Int)={
     if(n > 0 && ls.nonEmpty){
     val lsGrouped = ls.grouped(n)
     val checkList = new ListBuffer[Boolean]
